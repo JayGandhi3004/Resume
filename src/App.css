@@ -1,0 +1,514 @@
+body {
+    overflow-x: hidden;
+    /* background-color: #010204; */
+    background-image: url(Component/Image/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.resume {
+    padding: 60px 0 0 0;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 312px;
+    color: white;
+    border: 2px solid #565656;
+    border-radius: 30px;
+}
+
+.image {
+    margin-top: 40px;
+    padding-left: 40px;
+}
+
+.self .passion {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.self .mail {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.resume .list {
+    text-align: center;
+}
+
+.col-2 {
+    padding: 0;
+}
+
+.col-10 {
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+}
+
+.resume .dropdown li {
+    padding: 25px 0px;
+}
+
+.resume .dropdown a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.resume .dropdown a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #f54942;
+    bottom: -5px;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.resume .dropdown a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.resume .logo {
+    text-align: center;
+}
+
+.resume .logo img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.col-6 img {
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0px 4px 16px 30px #3E3D3F;
+}
+
+.resume .social .media {
+    justify-content: center;
+    display: flex;
+}
+
+.resume .social i {
+    color: #fff;
+    font-size: 25px;
+    margin: 15px;
+    transition: all 0.5s;
+}
+
+.resume .social i:hover {
+    color: #f54942;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.head {
+    /* height: 100vh; */
+    padding: 160px 0;
+    margin-left: 80px;
+}
+
+.head h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.head span {
+    font-size: 48px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    color: #f54942;
+}
+
+.head .btn {
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #f54942;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.head .btn:hover {
+    border-color: #f54942;
+    color: #fff;
+    background-color: transparent;
+}
+
+.skill {
+    padding: 50px 0;
+}
+
+.skill .skill-head h1 {
+    color: #fff;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 33px;
+    font-weight: 400;
+}
+
+.skill .skill-head span {
+    color: #f54942;
+}
+
+.skill .main-card {
+    text-align: center;
+}
+
+.skill .main-card h4 {
+    color: #f54942;
+}
+
+.skill .skill-card {
+    border: 2px solid #565656;
+    border-radius: 85px;
+    padding: 54px 0 48px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skill .skill-card:hover {
+    border-color: #f54942;
+}
+
+.skill .skill-card .skill-icon {
+    margin: 0 auto 30px;
+    font-size: 140px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.skill .skill-card .skill-icon:hover {
+    color: #f54942;
+}
+
+.skill .main-card p {
+    color: #fff;
+}
+
+.contact-head h1 {
+    padding-top: 150px;
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 30px;
+}
+
+.contact-head span {
+    color: #f54942;
+    font-family: 'Roboto Slab', serif;
+}
+
+.contact-head p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.box {
+    background-color: #282828;
+    height: 50px;
+    display: flex;
+    width: 50px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    transition: all 0.5s;
+}
+
+.box:hover {
+    color: #f54942;
+}
+
+.mail-data {
+    left: 25%;
+    position: absolute;
+    top: 60.5%;
+}
+
+.mail-data p {
+    font-size: 18px;
+}
+
+.contact-data {
+    padding: 100px 50px 0;
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+.border {
+    border: 2px solid #282828;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.contact-head .social .media {
+    display: flex;
+    margin-top: 25px;
+}
+
+.contact-head .social i {
+    color: #fff;
+    font-size: 25px;
+    margin: 15px;
+    transition: all 0.5s;
+}
+
+.contact-head .social i:hover {
+    color: #f54942;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.user-about input {
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    background-color: #282828;
+    border-radius: 15px;
+    text-align: justify;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    border: none;
+    color: #fff;
+}
+
+.user-about input:focus {
+    border: 2px solid red;
+    outline: none;
+}
+
+.last-box input:focus {
+    border: 2px solid red;
+    outline: none;
+}
+
+.contact-data h1 {
+    margin-bottom: 30px;
+}
+
+.last-box input {
+    margin: 30px 0;
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #282828;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+}
+
+.contact-last .btn {
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f54942;
+    color: #fff;
+    transition: all 0.5s;
+    box-shadow: 0px 8px 6px -1px #3e3d3d;
+}
+
+.contact-last .btn:hover {
+    border-color: #f54942;
+    color: #fff;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.card-list {
+    height: 50%;
+    width: 100%;
+}
+
+.card {
+    background-color: #FFF;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 1.25rem;
+    position: relative;
+    transition: 0.15s ease-in;
+    width: 330px;
+}
+
+.card:hover,
+.card:focus-within {
+    box-shadow: 0 0 0 3px #f54942, 0 10px 60px 0 rgba(0, 0, 0, 0.1);
+    transform: translatey(-5px);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-header {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-header a {
+    font-weight: 600;
+    font-size: 1.375rem;
+    line-height: 1.25;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: inherit;
+    will-change: transform;
+}
+
+.card-header a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.card-list {
+    padding: 50px 0;
+}
+
+.icon-button {
+    border: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 1.25rem;
+    transition: 0.25s ease;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+    z-index: 1;
+    cursor: pointer;
+    color: #565656;
+}
+
+.icon-button svg {
+    width: 1em;
+    height: 1em;
+}
+
+.icon-button:hover,
+.icon-button:focus {
+    background-color: #EC4646;
+    color: #FFF;
+}
+
+.card-footer {
+    margin-top: 1.25rem;
+    border-top: 1px solid #ddd;
+    padding-top: 1.25rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project h1 {
+    color: #FFF;
+    font-size: 48px;
+    padding-top: 50px;
+}
+
+.project span {
+    font-size: 48px;
+    color: #EC4646;
+}
+
+.card-meta {
+    display: flex;
+    align-items: center;
+    color: #787878;
+}
+
+.card-meta:first-child:after {
+    display: block;
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: currentcolor;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+.card-meta svg {
+    flex-shrink: 0;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.25em;
+}
+.about-head h1 {
+    padding: 50px 0 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.about-head span {
+    font-size: 48px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    color: #f54942;
+}
+
+.my-data{
+    font-size: 30px;
+    color: #fff;
+}
+.about-data p{
+    color: #fff;
+    font-size: 20px;
+}
+hr{
+    color: #fff;
+}
+.about-data h2{
+    color: #f54942;
+    font-size: 40px;
+}
+.about-data ul li{
+    color: #fff;
+    font-size: 25px;
+}
+.side{
+    display: flex;
+}
